@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PersonalWebsite</title>
+  <title>Tammy Pop</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'logo.ico' %>
 </head>
 <body>
 
 <%= yield %>
+
+  <div id="footer">
+    <div class="footer">
+      <ul>
+        <li><a href ="https://linkedin.com/pub/tammy-pop/25/abb/7aa">
+            <img src="/assets/linkedin.png" alt="LinkedIn" class="corners hvr-fade">
+          </a>
+        </li>
+        <li><a href ="https://twitter.com/smurfikpop">
+            <img src="/assets/twitter.png" alt="Twitter" class="corners hvr-fade">
+          </a>
+        </li>
+        <li><a href ="https://github.com/smurfik">
+            <img src="/assets/git.png" alt="Github" class="corners hvr-fade">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
 </body>
 </html>

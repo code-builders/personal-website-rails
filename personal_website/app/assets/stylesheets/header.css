@@ -1,0 +1,12 @@
+.top {
+  height: 475px;
+  background-color: #e6ebef;
+}
+
+#header img {
+  max-width: 508px;
+  width: 100%;
+  margin-left: 19%;/*196px;*/
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
