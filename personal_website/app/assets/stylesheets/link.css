@@ -6,10 +6,10 @@ a:link {
     color: #8d655d/*#d29699*/;
 }
 
-/* visited link */
+/* visited link
 a:visited {
     color: #5f5f6b;
-}
+} */
 
 /* mouse over link */
 a:hover {

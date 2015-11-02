@@ -46,18 +46,8 @@ li {
   width: 40%;
 }
 
-.sub-container {
-  width: 33.33333%;
-  float: left;
-}
-
 .center {
   padding-left: 65px;
-}
-
-.sub-sub-container {
-  width: 66.6666%;
-  float: left;
 }
 
 .separator:before {

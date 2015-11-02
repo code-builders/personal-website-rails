@@ -8,27 +8,35 @@
   <%= favicon_link_tag 'logo.ico' %>
 </head>
 <body>
+  <div id="header" class="container">
+    <a href="http://twitter.com/smurfikpop">
+      <img src="/assets/name.png" alt="Tammy Pop" />
+    </a>
+    <ul class="h">
+      <li><a href="http://twitter.com/smurfikpop" class="hrv-grow">Projects</a></li>
+      <li><a href="http://twitter.com/smurfikpop" class="hrv-grow">Blog</a></li>
+    </ul>
+  </div>
 
 <%= yield %>
 
   <div id="footer">
     <div class="footer">
       <ul>
-        <li><a href ="https://linkedin.com/pub/tammy-pop/25/abb/7aa">
+        <li><a href="https://linkedin.com/pub/tammy-pop/25/abb/7aa">
             <img src="/assets/linkedin.png" alt="LinkedIn" class="corners hvr-fade">
           </a>
         </li>
-        <li><a href ="https://twitter.com/smurfikpop">
+        <li><a href="https://twitter.com/smurfikpop">
             <img src="/assets/twitter.png" alt="Twitter" class="corners hvr-fade">
           </a>
         </li>
-        <li><a href ="https://github.com/smurfik">
+        <li><a href="https://github.com/smurfik">
             <img src="/assets/git.png" alt="Github" class="corners hvr-fade">
           </a>
         </li>
       </ul>
     </div>
-  </div>
 
 </body>
 </html>

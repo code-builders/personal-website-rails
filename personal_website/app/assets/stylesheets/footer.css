@@ -26,6 +26,7 @@
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
+
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #bb343a;
   color: white;
