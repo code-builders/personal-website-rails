@@ -1,0 +1,45 @@
+.resume {
+background-color:white;
+
+}
+
+.resume h1{
+  text-align:center;
+  color:Violet
+}
+
+.contactinfo{
+  text-align:center;
+  border-bottom:10px solid black;
+}
+
+
+
+.education{
+  border-bottom:2px solid black;
+}
+
+.education::first-line{
+  font-weight:bold;
+  font-size:20px;
+
+}
+.techskills{
+border-bottom:2px solid black;
+
+}
+
+.techskills::first-line{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.experience h3{
+  font-weight:bold;
+  text-align:center;
+}
+
+.experience h4{
+  font-weight:bold;
+  text-align:left;
+}
