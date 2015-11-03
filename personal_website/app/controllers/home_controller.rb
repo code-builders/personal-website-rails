@@ -6,4 +6,7 @@ class HomeController < ApplicationController
   def project
   end
 
+  def blog
+  end
+
 end
