@@ -1,7 +1,14 @@
-#header img {
+/*#header img {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 10px;
+}*/
+
+.retro {
+	color: #b9c5db;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+	font: 80px 'BazarMedium';
+	letter-spacing: 10px;
 }
 
 .h {
@@ -12,7 +19,7 @@
 .h li {
   font-size: 200%;
   padding-left: 40px;
-  padding-top: 40px;
+  padding-top: 20px;
   color: #2b6294;
 }
 
@@ -20,14 +27,23 @@
   color: #2b6294;
 }
 
+.header {
+  padding-top: 20px;
+}
+
+.header a:hover {
+  color: #b9c5db;
+}
+
 .h li a:hover {
     color: #bb343a;
 }
 
-#header:after {
+#sub-wrapper:before{
   content: "";
   display: block;
   clear: both;
+  padding-top: 30px;
 }
 
 /* Grow */
