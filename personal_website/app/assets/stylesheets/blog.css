@@ -1,0 +1,14 @@
+.blog .sub-sub-container p {
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 15px;
+  text-indent: 25px;
+}
+
+.blog .sub-container h3 {
+  text-align: center;
+}
+
+.blog .sub-container p {
+  text-align: center;
+}
