@@ -95,6 +95,8 @@ and (max-width : 685px) {
 
   .projects .position {
     width: 100%;
+    padding-left: 70px;
+    text-align: left;
   }
 
   .projects li {
