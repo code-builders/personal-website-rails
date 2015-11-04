@@ -89,4 +89,21 @@ and (max-width : 685px) {
     margin-top: 0;
   }
 
+  .projects .sub-container {
+    width: 100%;
+  }
+
+  .projects .position {
+    width: 100%;
+  }
+
+  .projects li {
+    padding-left: 65px;
+  }
+
+  .projects .style {
+    padding-left: 20px;
+    text-align: left;
+  }
+
 }
