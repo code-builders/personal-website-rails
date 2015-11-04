@@ -103,12 +103,8 @@ and (max-width : 700px) {
     padding-top: 0;
   }
 
-  .header ul {
-    padding: 0;
-  }
-
   #sub-wrapper:before{
-    padding-top: 10px;
+    padding-top: 0;
   }
 
 }

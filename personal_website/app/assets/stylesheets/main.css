@@ -45,7 +45,7 @@ and (max-width : 820px) {
   }
 
   .header .sub-sub-container {
-    width: 60.6666%;
+    width: 50.6666%;
     float: none;
   }
 
@@ -67,6 +67,11 @@ and (max-width : 685px) {
 
   .header .sub-sub-container {
     width: 66.6666%;
+  }
+
+  .header ul {
+    float: left;
+    padding-top: 20px;
   }
 
   .index .sub-sub-container {
