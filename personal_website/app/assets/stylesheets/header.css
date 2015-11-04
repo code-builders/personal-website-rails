@@ -78,6 +78,7 @@ and (max-width : 820px) {
   .header ul {
     padding: 0;
   }
+
 }
 
 @media only screen
@@ -98,6 +99,10 @@ and (max-width : 685px) {
 
   .header ul {
     padding: 0;
+  }
+
+  #sub-wrapper:before{
+    padding-top: 10px;
   }
 
 }
