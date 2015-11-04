@@ -78,4 +78,15 @@ and (max-width : 685px) {
     width: 95%;
   }
 
+  .me {
+    display: inline-block;
+    padding: 20px;
+    width: 90%;
+    margin-bottom: 0;
+  }
+
+  .bio {
+    margin-top: 0;
+  }
+
 }
