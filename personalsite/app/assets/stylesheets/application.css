@@ -17,7 +17,6 @@
 
 
 
-
 .homepage {
 background-color:#00E5EE;
 font-family: Calibri;
@@ -26,23 +25,37 @@ margin:0px;
 }
 /*TOOK OUT BODY BECAUSE THIS GOES TO MULTIPLE PAGES, WILL STYLE PAGES ACCORDING TO MAIN DIV WRAPPERS*/
 
+body{
+  margin:0px;
+}
 
+.socialmedia{
+  margin:0;
+}
 .socialmedia li {
   /*position:relative;*/
   left:250px;
   display:inline-block;
   float:right;
   padding: 15px;
+  height:84px;
 }
 
+.emailsignup{
+  margin:0;
+}
 
 .emailsignup li{
   display:inline-block;
   color:white;
   margin:0;
   margin-left:50%;
-  padding-top:20px;
+  font-family: 'Rock Salt', cursive;
+  margin-bottom:5px;
+  margin-top:10px;
+
 }
+
 
 .lollipop{
   float:left;
@@ -50,11 +63,10 @@ margin:0px;
   /*border:2px solid black;*/
 }
 
-
 .welcome{
   color:white;
   clear:both;
-  font-family:calibri;
+  /*font-family:"Playfair";*/
   text-align:center;
   background-color: #f88379;
   /*margin:0;*/
@@ -62,45 +74,60 @@ margin:0px;
   width:100%;
 
 }
+.welcome h1{
+  font-family: 'Rock Salt', cursive;
+  /*font-size:30px;*/
+}
 
 
 .welcome p{
   font-size:20px;
   color:white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
 .mainpic {
-  height:533px;
+  height:800px;
   width:100%;
-  background-image:url("/assets/217Hcopy.jpeg");
+  background-image:url("/assets/233H.jpg");
   background-size:cover;
 }
 /*have to put height/width on the actual image itself and NOT the class*/
 
-
 .retropics {
 float:left;
 width:33.29%;
+height:284px;
+
 /*#width as a percentage makes it equal colums, just divide by 100%*/
 /*border:1px solid black;*/
 }
 
 
 .retropics:first-child {
-  margin-left: 0px;
+  margin-left:0px;
 }
+
 /*#move right pic all the way to the left*/
+
+.retropics:last-child {
+  margin-right:0px;
+  /*height:284px;*/
+}
 
 .retropics img {
   width:100%;
-  height:100%
+  /*height:100%*/
+  padding-bottom:0px;
+  height:284px;
+
 }
+
 
 
 .workheader {
  margin:20px 0px 0px 0px;
-
  padding-left:20px;
 }
 
@@ -114,6 +141,7 @@ width:33.29%;
 .mywork li img:hover{
   background:white;
 }
+
 
 .workwrapper{
   float:right;
@@ -134,33 +162,45 @@ width:33.29%;
 /*#the relative function is tied to top and left values of the .myworkcol2
 and .mywork css files, moves to wherever you want on the page*/
 
-.contactme{
+.contactme {
   color:white;
-  font-size:40px;
-  font-family:calibri;
+  font-size:25px;
+  font-family: 'Rock Salt', cursive;
+  margin:0px;
+  padding-top:0px;
 }
 
 .pairprogram{
-  font-style:bold;
-  font-size:18px;
-  background-color:white;
+  float:right;
+  width:50%;
+  padding-top:20px;
+  /*font-style:bold;
+  font-size:18px;*/
+  background-color:#f88379;
   margin:0px;
-  padding-left:20px;
+  height:141px;
+  /*padding-left:20px;
   padding-right:20px;
-  height:285px;
+  height:285px;*/
   /*width:100%;*/
 
 }
 
 
 .pairprogram p{
-  padding:0px;
-  margin:0px 0px 20px 0px;
+  padding-left:25px;
+  /*margin:0px 0px 20px 0px;*/
   /*border:1px solid black;*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+  color:white;
+
 }
 
+.pairprogram img {
+  height:50;
+  /*padding-left:30px;*/
+  border: 6px solid white;
+  float:right;
 
-.pairprogram img{
-  height:100px;
-  width:100%;
 }

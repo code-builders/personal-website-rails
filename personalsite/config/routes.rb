@@ -5,7 +5,10 @@ Rails.application.routes.draw do
 
 # "home" => HomeController.new.create
   get "/", to: "home#index"
+  #goes to the home controller and runs the index method
   get"/resume", to:"home#resume"
+
+  get "/projects",to: "home#projects"
 
 
 
