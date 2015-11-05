@@ -9,16 +9,16 @@
 </head>
 <body>
   <div class="container header">
-      <a href="/" class="sub-sub-container retro">Tammy Pop</a>
+    <%= link_to "Tammy Pop", root_path, class: "sub-sub-container retro" %>
     <ul class="h">
-      <li><a href="/projects" class="hrv-grow">Projects</a>
+      <li><%= link_to "Projects", projects_path, class: "hrv-grow" %>
         <ul class="dropdown">
-          <li><a href="https://github.com/smurfik/todo">Todo App</a></li>
-          <li><a href="https://github.com/smurfik/far_mar">Far Mar</a></li>
-          <li><a href="https://github.com/smurfik/google-homepage">Odin Project</a></li>
+          <li><%= link_to "Todo App", "https://github.com/smurfik/todo" %>
+          <li><%= link_to "Far Mar", "https://github.com/smurfik/far_mar" %>
+          <li><%= link_to "Odin Project", "https://github.com/smurfik/google-homepage" %>
         </ul>
       </li>
-      <li><a href="/blog" class="hrv-grow">Blog</a></li>
+      <li><%= link_to "Blog", blog_path, class: "hrv-grow" %>
     </ul>
   </div>
 
@@ -29,17 +29,14 @@
   <div id="footer">
     <div class="footer">
       <ul>
-        <li><a href="https://linkedin.com/pub/tammy-pop/25/abb/7aa">
-            <%= image_tag "linkedin.png", class: "corners hvr-fade" %>
-          </a>
+        <li>
+          <%= link_to image_tag("linkedin.png", class: "corners hvr-fade"), "https://linkedin.com/pub/tammy-pop/25/abb/7aa" %>
         </li>
-        <li><a href="https://twitter.com/smurfikpop">
-            <%= image_tag "twitter.png", class: "corners hvr-fade" %>
-          </a>
+        <li>
+          <%= link_to image_tag("twitter.png", class: "corners hvr-fade"), "https://twitter.com/smurfikpop" %>
         </li>
-        <li><a href="https://github.com/smurfik">
-            <%= image_tag "git.png", class: "corners hvr-fade" %>
-          </a>
+        <li>
+          <%= link_to image_tag("git.png", class: "corners hvr-fade"), "https://github.com/smurfik" %>
         </li>
       </ul>
     </div>
