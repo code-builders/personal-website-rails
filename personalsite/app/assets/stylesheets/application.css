@@ -1,4 +1,3 @@
-
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -32,17 +31,42 @@ body{
 .socialmedia{
   margin:0;
 }
+
 .socialmedia li {
-  /*position:relative;*/
-  left:250px;
+
   display:inline-block;
   float:right;
-  padding: 15px;
-  height:84px;
+  padding-left: 30px;
+  padding-top:10px;
+
 }
 
+/*#this is the big "contact me" in white*/
+.socialmedia li:last-child{
+  padding-top:5px;
+}
+
+.socialmedia li:first-child{
+  padding-right:20px;
+}
+
+.contactme {
+  color:white;
+  font-size:25px;
+  font-family: 'Rock Salt', cursive;
+  margin:0px;
+  padding:0px;
+}
+.contactme p {
+  margin:0px;
+  padding:0px 0px 0px 0px;
+}
+
+
+
 .emailsignup{
-  margin:0;
+  margin:0px;
+  padding:0px
 }
 
 .emailsignup li{
@@ -51,14 +75,18 @@ body{
   margin:0;
   margin-left:50%;
   font-family: 'Rock Salt', cursive;
-  margin-bottom:5px;
-  margin-top:10px;
+  margin-bottom:20px;
+  margin-top:20px;
+
 
 }
 
 
+
 .lollipop{
   float:left;
+  margin-top:0.5%;
+  padding-left:1%;
   /*margin-left:180px;*/
   /*border:2px solid black;*/
 }
@@ -162,13 +190,6 @@ height:284px;
 /*#the relative function is tied to top and left values of the .myworkcol2
 and .mywork css files, moves to wherever you want on the page*/
 
-.contactme {
-  color:white;
-  font-size:25px;
-  font-family: 'Rock Salt', cursive;
-  margin:0px;
-  padding-top:0px;
-}
 
 .pairprogram{
   float:right;

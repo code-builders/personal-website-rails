@@ -4,7 +4,6 @@
 <div class="body">
 
 
-
 <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
@@ -18,7 +17,7 @@
   <li><a href="https://twitter.com/LeshoyaStarkey"><img src="assets/social_02copy.png"></a></li>
   <li><a href="https://github.com/GaBison2007"><img src="assets/github-512copy.png"></a></li>
   <li><a href="https://www.linkedin.com/in/olstarkey"><img src="assets/social_06copy.png"></a></li>
-  <li class="contactme">Contact Me !</li>
+  <li class="contactme"><p>Contact Me !</p></li>
 </ul>
 
 <ul class="emailsignup">
@@ -31,6 +30,11 @@
 
 <div class = "welcome">
   <h1>Welcome to ShoyaCodes.com</h1>
+    <p>
+      <% @hello.each do |hi| %>
+        <%=hi %>
+      <% end %>
+    </p>
     <p> I'm LeShoya Starkey, an aspiring web developer and Southern transplant to the great city of Seattle, Washington!</p>
     <p> Thanks for visiting and happy coding!</p>
     <p>*Website Is Baking and Under Construction*</p>
