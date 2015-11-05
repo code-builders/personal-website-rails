@@ -1,4 +1,4 @@
-.blog .sub-sub-container p {
+.blog .sub-sub-container .article {
   text-align: justify;
   margin: 0;
   margin-bottom: 15px;
@@ -6,9 +6,6 @@
   padding: 2%;
   background: #b9c5db;
   border-radius: .25em;
-}
-
-.paragraph {
 }
 
 .blog .sub-container h3 {
