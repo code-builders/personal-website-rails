@@ -1,10 +1,10 @@
-.work_background {
-  background: url("/assets/diamondhead2.jpg") center center fixed;
+.projects_background {
+  background: image-url("chihulyceiling.jpg") center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  font-family: "Perpetua", sans-serif;
+  font-family: "Perpetua" sans-serif;
 }
 
 .header {
@@ -12,53 +12,49 @@
   background-color: rgba(19, 23, 20, 0.6);
   color: beige;
   width: 100%;
-}
-
-.work {
-  padding-left: 2%;
+  text-align: center;
 }
 
 .header h1 {
-  text-align: center;
   font-size: 325%;
   padding-top: 5%;
 }
 
-.work .box {
+.project {
+  padding: 4%;
+  padding-top: 0;
+}
+
+.project .box {
   float: left;
-  width: 32.1%;
   font-size: 18px;
+  width: 32.1%;
   text-align: left;
   margin: 0;
 }
 
-.work .box_wrapper {
-  padding-left: 10%;
-}
-
-.work .box h4 {
-  padding: 0%;
-  margin-bottom: 0%;
+.project .box h4 {
+  margin: 0%;
   display: inline-block;
   text-decoration: underline;
 }
 
-.work .box h5 {
+/*.box h5 {
   margin: 0%;
   display: inline-block;
-}
+}*/
 
-.work .box ul {
-  margin-left: -1%;
+.project .box ul {
+  margin-left: -12%;
   font-weight: normal;
   padding-top: 1%;
 }
 
-.work .box li {
+.project .box li {
   padding-bottom: 5%;
 }
 
-.work .box li a {
+.project .box li a {
   text-decoration: underline;
   color: beige;
 }
