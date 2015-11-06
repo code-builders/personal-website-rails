@@ -52,7 +52,7 @@
   opacity: 0;
   overflow: hidden;
   width: 300px;
-  animation: rotateWordsFirst 18s linear infinite 0s;
+  animation: rotateWordsFirst 30s linear infinite 0s;
 }
 
 .rotating_word span:nth-child(2) {
@@ -75,10 +75,36 @@
   animation-delay: 15s;
 }
 
+.rotating_word span:nth-child(7) {
+  animation-delay: 18s;
+}
+
+.rotating_word span:nth-child(8) {
+  animation-delay: 21s;
+}
+
+.rotating_word span:nth-child(9) {
+  animation-delay: 24s;
+}
+
+.rotating_word span:nth-child(10) {
+  animation-delay: 27s;
+}
+
 @keyframes rotateWordsFirst {
     0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
     8% { opacity: 1; height: 32.7273px; }
-    19% { opacity: 1; height: 32.7273px; }
+    15% { opacity: 0; height: 32.7273px; }
 	  25% { opacity: 0; height: 32.7273px; }
-    100% { opacity: 0; }
+    100% { opacity: 0; height: 32.7273px; }
 }
+
+/*0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+6% { opacity: 1; height: 32.7273px; }
+15% { opacity: 0; height: 32.7273px; }
+30% { opacity: 0; height: 32.7273px; }
+60% { opacity: 0; height: 32.7273px; }
+80% { opacity: 0; height: 32.7273px; }
+90% { opacity: 0; height: 32.7273px; }
+95% { opacity: 0; height: 32.7273px; }
+100% { opacity: 0; }*/
