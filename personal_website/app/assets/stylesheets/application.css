@@ -71,8 +71,8 @@ body {
   background-color: rgba(19, 23, 20);
   background-color: rgba(19, 23, 20, 0.6);
   display: block;
-  width: 195px;
-  height: 70px;
+  width: 320px;
+  height: 73px;
 }
 
 a, a:hover {
@@ -87,17 +87,18 @@ a, a:hover {
 .social_links li {
     list-style: none outside none;
     display: inline-block;
+    padding-right: 5px;
+    padding-left: 20px;
 }
 
 .social_links .fa {
   width: 30px;
-  height: 28px;
-  color: #000;
-  background-color: #FFF;
-  border: 1px solid #000;
+  height: 30px;
+  color: rgba(2, 5, 14, 0.79);
+  background-color: beige;
   padding-top: 12px;
   border-radius: 22px;
-  padding-left: 12px;
+  padding-left: 13px;
 }
 
 .social_links .fa:hover {
