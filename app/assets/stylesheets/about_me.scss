@@ -33,24 +33,6 @@
   width: 80%;
 }
 
-/*.images {
-  padding-bottom: 2%;
-  text-align: center;
-  max-width: 100%;
-  height: auto;
-  width: auto;
-}*/
-
-/*.images img {
-  padding-top: 4%;
-  padding-left: 4%;
-  padding-right: 4%;
-}
-
-.images img:hover {
-  background-image: url("/assets/abeltasman2copy.png")
-}*/
-
 ul.img {
   list-style-type: none;
   margin: 0;
@@ -60,10 +42,8 @@ ul.img {
 
 ul.img li {
   display: inline-block;
-  /*height: 200px;*/
   margin: 4% 5% 1% 4%;
   position: relative;
-  /*width: 200px;*/
 }
 
 span.img_txt {
@@ -92,5 +72,4 @@ span.img_txt span {
 
 ul.img li:hover span.img_txt {
   opacity: 1;
-  // border: 1px black;
 }
