@@ -1,0 +1,36 @@
+
+.computerimage img{
+
+  height:800px;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  height:540px;
+}
+
+.projectspage{
+  background-color:#f88379;
+  font-size:20px;
+  border:1px solid black;
+  height:30%;
+  text-align:center;
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:25px;
+
+
+}
+
+
+.codebuilders{
+  color:black;
+  font-family: 'Rock Salt', cursive;
+}
+
+.codeimage img{
+text-align:center;
+margin:0px;
+height:300px;
+padding:20px;
+
+}
