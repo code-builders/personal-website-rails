@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-  get "/", to: "home#index"
-  get "/projects", to: "home#project"
-  get "/blog", to: "home#blog"
-  root to: "home#index"
+  root "home#index"
+
+  get "/projects"       , to: "home#project"
+  get "/blog"           , to: "home#blog"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
