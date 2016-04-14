@@ -1,5 +1,7 @@
 # Rails Personal Website
 
+Check it out here: <http://t-pop.herokuapp.com/>
+
 In this projects we will continue to work on personal website, this time adding the static content to a rails app. This will allow us to add dynamic content in the future. We are going to focus on adding routes, controllers, views, and view helpers to create a logical and DRY application.
 
 ## Requirements
