@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+development:
+  <<: *default
+  database: personal_website_development
+test:
+  <<: *default
+  database: personal_website_test
+production:
+  <<: *default
+  database: personal_website_production
+  username: personal_website
+  password: <%= ENV['personal_website_DATABASE_PASSWORD'] %>

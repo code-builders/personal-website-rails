@@ -1,0 +1,60 @@
+.projects_background {
+  background: image-url("chihulyceiling.jpg") center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  font-family: "Perpetua" sans-serif;
+}
+
+.header {
+  background-color: rgb(19, 23, 20);
+  background-color: rgba(19, 23, 20, 0.6);
+  color: beige;
+  width: 100%;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 325%;
+  padding-top: 5%;
+}
+
+.project {
+  padding: 4%;
+  padding-top: 0;
+}
+
+.project .box {
+  float: left;
+  font-size: 18px;
+  width: 32.1%;
+  text-align: left;
+  margin: 0;
+}
+
+.project .box h4 {
+  margin: 0%;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+/*.box h5 {
+  margin: 0%;
+  display: inline-block;
+}*/
+
+.project .box ul {
+  margin-left: -12%;
+  font-weight: normal;
+  padding-top: 1%;
+}
+
+.project .box li {
+  padding-bottom: 5%;
+}
+
+.project .box li a {
+  text-decoration: underline;
+  color: beige;
+}
