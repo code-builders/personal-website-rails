@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%=@title%></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'logo.ico' %>
+</head>
+<body>
+  <div class="container header">
+    <%= link_to "Tammy Pop", root_path, class: "sub-sub-container retro" %>
+    <ul class="h">
+      <li><%= link_to "Projects", projects_path, class: "hrv-grow" %>
+        <ul class="dropdown">
+          <li><%= link_to "Todo App", "https://github.com/smurfik/todo" %>
+          <li><%= link_to "Far Mar", "https://github.com/smurfik/far_mar" %>
+          <li><%= link_to "Odin Project", "https://github.com/smurfik/google-homepage" %>
+        </ul>
+      </li>
+      <li><%= link_to "Blog", blog_path, class: "hrv-grow" %>
+    </ul>
+  </div>
+
+  <div id="sub-wrapper">
+    <%= yield %>
+  </div>
+
+  <div id="footer">
+    <div class="footer">
+      <ul>
+        <li>
+          <%= link_to image_tag("linkedin.png", class: "corners hvr-fade"), "https://linkedin.com/pub/tammy-pop/25/abb/7aa" %>
+        </li>
+        <li>
+          <%= link_to image_tag("twitter.png", class: "corners hvr-fade"), "https://twitter.com/smurfikpop" %>
+        </li>
+        <li>
+          <%= link_to image_tag("git.png", class: "corners hvr-fade"), "https://github.com/smurfik" %>
+        </li>
+      </ul>
+    </div>
+
+</body>
+</html>

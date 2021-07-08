@@ -1,0 +1,31 @@
+div p {
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+.me {
+  border-radius: 25px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.bio {
+  text-align: justify;
+  margin: 16px;
+  padding-top: 20px;
+}
+
+.separator:before {
+  content: "";
+  padding: 20px;
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,53 @@
+.blog .sub-sub-container .article {
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 15px;
+  text-indent: 25px;
+  padding: 2%;
+  background: #b9c5db;
+  border-radius: .25em;
+}
+
+.blog .sub-container h3 {
+  text-align: center;
+}
+
+.blog .sub-container p {
+  text-align: center;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #5c5f72;
+  border-radius: .25em;
+  float: right;
+}
